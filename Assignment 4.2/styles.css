@@ -1,0 +1,114 @@
+/* Basic styling for the to-do list application */
+body {
+    /* Sets the font for the entire page */
+    font-family: Arial, sans-serif;
+    
+    /* Centers the content horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Sets the height to 100% of the viewport height */
+    height: 100vh;
+    
+    /* Removes default margin */
+    margin: 0;
+    
+    /* Sets a light gray background color for the entire page */
+    background-color: #f4f4f4;
+}
+
+.container {
+    /* Sets a fixed width for the container */
+    width: 300px;
+    
+    /* Centers text within the container */
+    text-align: center;
+    
+    /* Sets a white background for the container */
+    background: #fff;
+    
+    /* Adds padding inside the container */
+    padding: 20px;
+    
+    /* Rounds the corners of the container */
+    border-radius: 8px;
+    
+    /* Adds a subtle shadow around the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    /* Sets the width of the text input */
+    width: 80%;
+    
+    /* Adds padding inside the text input */
+    padding: 10px;
+    
+    /* Adds vertical margins to the text input */
+    margin: 10px 0;
+    
+    /* Sets a light gray border for the text input */
+    border: 1px solid #ddd;
+    
+    /* Rounds the corners of the text input */
+    border-radius: 4px;
+}
+
+button {
+    /* Adds padding inside the button */
+    padding: 10px 15px;
+    
+    /* Removes the default border of the button */
+    border: none;
+    
+    /* Rounds the corners of the button */
+    border-radius: 4px;
+    
+    /* Sets the background color of the button */
+    background-color: #007bff;
+    
+    /* Sets the text color of the button */
+    color: #fff;
+    
+    /* Changes the cursor to a pointer on hover */
+    cursor: pointer;
+    
+    /* Adds margins around the button */
+    margin: 5px;
+}
+
+button:hover {
+    /* Changes the background color of the button on hover */
+    background-color: #0056b3;
+}
+
+ul {
+    /* Removes default list styling */
+    list-style-type: none;
+    
+    /* Removes default padding */
+    padding: 0;
+}
+
+li {
+    /* Displays list items as flex containers */
+    display: flex;
+    
+    /* Distributes space evenly between items in the list */
+    justify-content: space-between;
+    
+    /* Adds padding inside each list item */
+    padding: 10px;
+    
+    /* Adds a light gray border at the bottom of each list item */
+    border-bottom: 1px solid #ddd;
+}
+
+li.completed {
+    /* Applies a line-through style to completed items */
+    text-decoration: line-through;
+    
+    /* Sets a lighter color for completed items */
+    color: #888;
+}
