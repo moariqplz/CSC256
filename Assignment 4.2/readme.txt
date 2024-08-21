@@ -10,14 +10,3 @@
 
 4. **Clear Completed Tasks**:
    - Click the "Clear Completed Tasks" button to remove all tasks marked as completed.
-<BodySlideConfig>
-    <SelectedOutfit>[BHUNP] EGIL Shadow of Akavir Torso</SelectedOutfit>
-    <SelectedPreset>(Pseudo) Riellata - Hands Redone</SelectedPreset>
-    <LastGroupFilter></LastGroupFilter>
-    <LastOutfitFilter></LastOutfitFilter>
-    <BuildMorphs>true</BuildMorphs>
-    <RegexFilterOutfits>false</RegexFilterOutfits>
-    <BodySlideFrame width="1920" height="1039" x="-8" y="-8" maximized="true"></BodySlideFrame>
-    <PreviewFrame width="728" height="727" maximized="false" x="587" y="152"></PreviewFrame>
-    <ForceBodyNormals>false</ForceBodyNormals>
-</BodySlideConfig>
